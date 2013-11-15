@@ -1,0 +1,16 @@
+body {
+	line-height: 1.7;
+	color: #777;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #333;
+}
+ul {
+	padding: 0;
+	margin-left: 18px;
+	list-style-position: outside;
+}
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
