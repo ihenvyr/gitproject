@@ -18,9 +18,9 @@ error_reporting(-1);
 // echo "<pre>$output</pre>";
 
 // git pull using backticks
-$output = `sudo git pull`;
+$output = `git pull`;
 echo "<pre>$output</pre>";
 
 // git pull using shell_exec
-$output = shell_exec('sudo git pull');
+$output = shell_exec('git pull');
 echo "<pre>$output</pre>";
